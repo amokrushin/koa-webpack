@@ -3,7 +3,7 @@
 const path = require('path');
 const Webpack = require('webpack');
 const devMiddleware = require('webpack-dev-middleware');
-const hotClient = require('webpack-hot-client');
+const hotClient = require('@amokrushin/webpack-hot-client');
 const root = require('app-root-path');
 
 /**
